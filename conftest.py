@@ -34,8 +34,8 @@ def browser(request):
             options.headless = True
         driver = webdriver.Firefox(options=options)
 
-    elif browser == "safari":
-        options = webdriver.SafariOptions()
+    elif browser == "ie":
+        options = webdriver.ie()
         if headless:
             options.headless = True
         driver = webdriver.Safari(options=options)
