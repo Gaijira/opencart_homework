@@ -1,0 +1,120 @@
+1612899974749	geckodriver	INFO	Listening on 127.0.0.1:49155
+1612899975713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofile8UYRlC"
+1612899985669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612899985669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612899985669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612899985669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:27.779 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSButton: 0x140e25800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:27.779 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSButton: 0x140e28400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:27.780 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSButton: 0x140e28800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:27.780 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSButton: 0x140e28c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:27.780 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSButton: 0x140e29000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:27.781 firefox-bin[7152:496484] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140e29800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612899988646	Marionette	INFO	Listening on port 49171
+1612899988694	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612899990043	geckodriver	INFO	Listening on 127.0.0.1:49372
+1612899991062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofileO3ZHcf"
+1612899991574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612899991574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612899991574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612899991574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:33.321 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSButton: 0x1408e4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:33.322 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSButton: 0x140f2f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:33.322 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSButton: 0x140f2f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:33.322 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSButton: 0x140f2f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:33.323 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSButton: 0x140f2fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:33.323 firefox-bin[7177:497045] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140f30400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612899994065	Marionette	INFO	Listening on port 49387
+1612899994075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612899996751	geckodriver	INFO	Listening on 127.0.0.1:49459
+1612899997769	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofilei9HFDc"
+1612899998268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612899998268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612899998268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612899998268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:40.004 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSButton: 0x140811800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:40.004 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSButton: 0x140c2b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:40.005 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSButton: 0x140c2bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:40.005 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSButton: 0x140c2c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:40.005 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSButton: 0x140c2c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:40.006 firefox-bin[7185:497389] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140c2cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900000870	Marionette	INFO	Listening on port 49474
+1612900000913	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900003368	geckodriver	INFO	Listening on 127.0.0.1:49544
+1612900004383	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofileofOmcx"
+1612900004893	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612900004893	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612900004893	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612900004893	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:46.696 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSButton: 0x140d44c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:46.697 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSButton: 0x140d47800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:46.697 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSButton: 0x140d47c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:46.698 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSButton: 0x140d48000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:46.698 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSButton: 0x140d48400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:46.698 firefox-bin[7193:497721] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140d48c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900007510	Marionette	INFO	Listening on port 49559
+1612900007531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900008853	geckodriver	INFO	Listening on 127.0.0.1:49628
+1612900009865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofilexzPMwZ"
+1612900010355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612900010355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612900010355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612900010355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:52.118 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSButton: 0x140b9ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:52.118 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSButton: 0x141b2cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:52.119 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSButton: 0x141b2d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:52.119 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSButton: 0x141b2d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:52.119 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSButton: 0x141b2d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:52.120 firefox-bin[7204:498076] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x141b2e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900012975	Marionette	INFO	Listening on port 49643
+1612900012989	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900014360	geckodriver	INFO	Listening on 127.0.0.1:49708
+1612900015373	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofileyppTsc"
+1612900015882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612900015882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612900015882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612900015882	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:46:57.638 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSButton: 0x14334a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:57.639 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSButton: 0x14334d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:57.639 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSButton: 0x14334d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:57.639 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSButton: 0x14334d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:57.640 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSButton: 0x14334dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:46:57.640 firefox-bin[7212:498404] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14334e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900018500	Marionette	INFO	Listening on port 49723
+1612900018505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900020785	geckodriver	INFO	Listening on 127.0.0.1:49806
+1612900021810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofile4AmT5c"
+1612900022335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612900022335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612900022335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612900022335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:47:04.228 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSButton: 0x13fb32400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:04.229 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSButton: 0x13fb35000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:04.229 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSButton: 0x13fb35400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:04.229 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSButton: 0x13fb35800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:04.230 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSButton: 0x13fb35c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:04.230 firefox-bin[7220:498758] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13fb36400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900025082	Marionette	INFO	Listening on port 49822
+1612900025145	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900030469	geckodriver	INFO	Listening on 127.0.0.1:49907
+1612900030478	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j4/fwv61c1s3sbfsh2f5zvvwyph0000gn/T/rust_mozprofilef8sTnl"
+1612900031051	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1612900031051	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1612900031051	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1612900031051	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: [OPENGL] Failed to init compositor with reason: FEATURE_FAILURE_OPENGL_CREATE_CONTEXT
+2021-02-09 22:47:12.942 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSButton: 0x13f137c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:12.942 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSButton: 0x13f43cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:12.943 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSButton: 0x13f43d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:12.943 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSButton: 0x13f43d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:12.943 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSButton: 0x13f43d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-09 22:47:12.944 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13f43e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1612900033803	Marionette	INFO	Listening on port 49916
+1612900033808	Marionette	WARN	TLS certificate errors will be ignored for this session
