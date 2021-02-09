@@ -35,7 +35,7 @@ def browser(request):
         driver = webdriver.Firefox(options=options)
 
     elif browser == "ie":
-        options = webdriver.ie()
+        options = webdriver.IeOptions()
         if headless:
             options.headless = True
         driver = webdriver.Safari(options=options)
@@ -43,7 +43,7 @@ def browser(request):
     if maximized:
         driver.maximize_window()
 
-    def teardown(request):
+    def teardown():
         request.addfinalizer(teardown)
 
     return driver

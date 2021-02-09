@@ -118,3 +118,11 @@
 2021-02-09 22:47:12.944 firefox-bin[7228:499132] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13f43e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
 1612900033803	Marionette	INFO	Listening on port 49916
 1612900033808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612900272709	Marionette	INFO	Stopped listening on port 49171
+1612900274808	Marionette	INFO	Stopped listening on port 49387
+1612900277076	Marionette	INFO	Stopped listening on port 49474
+1612900282086	Marionette	INFO	Stopped listening on port 49559
+1612900284081	Marionette	INFO	Stopped listening on port 49643
+1612900286256	Marionette	INFO	Stopped listening on port 49723
+1612900288392	Marionette	INFO	Stopped listening on port 49822
+1612900290415	Marionette	INFO	Stopped listening on port 49916
