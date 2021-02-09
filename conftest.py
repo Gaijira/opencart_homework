@@ -38,12 +38,11 @@ def browser(request):
         options = webdriver.IeOptions()
         if headless:
             options.headless = True
-        driver = webdriver.Safari(options=options)
+        driver = webdriver.ie(options=options)
 
     if maximized:
         driver.maximize_window()
 
-    def teardown():
-        request.addfinalizer(teardown)
+    request.addfinalizer(driver.close)
 
     return driver
