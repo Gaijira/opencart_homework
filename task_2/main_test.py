@@ -1,22 +1,12 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+from pages.MainPage import *
+from pages.Common import *
 
 
 def test_index(browser, url):
-    browser.get(url)
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#cart > button')))
-    browser.find_element_by_css_selector('#cart > button')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#menu > div.navbar-header')))
-    browser.find_element_by_css_selector('#menu > div.navbar-header')
-
-    WebDriverWait(browser, 3).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#search')))
-    browser.find_element_by_css_selector('#search')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#logo > h1 > a')))
-    browser.find_element_by_css_selector('#logo > h1 > a')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#slideshow0')))
-    browser.find_element_by_css_selector('#slideshow0')
+    main_page = MainPage(browser)
+    main_page.open_page(url)
+    main_page.wait_visibility_find(3, CommonLocators.CART_BTN)
+    main_page.wait_visibility_find(3, CommonLocators.NAV_BAR)
+    main_page.wait_clickable_find(3, CommonLocators.SEARCH_FIELD)
+    main_page.wait_visibility_find(3, CommonLocators.LOGO)
+    main_page.wait_visibility_find(3, MainPageLocators.SLIDER)

@@ -1,8 +1,7 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from pages.MainPage import *
 
 
 def test_title(browser, url):
-    browser.get(url)
-    WebDriverWait(browser, 3).until(EC.title_is('Your Store'))
-    assert browser.title == 'Your Store'
+    main_page = MainPage(browser)
+    main_page.open_page(url)
+    main_page.wait_assert_title(2, 'Your Store')

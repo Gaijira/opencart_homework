@@ -1,24 +1,11 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+from pages.LoginPage import *
 
 
 def test_login(browser, url):
-    browser.get(url + '?route=account/login')
-
-    WebDriverWait(browser, 3).until(
-        EC.visibility_of_element_located((By.CSS_SELECTOR, '#content > div > div:nth-child(1) > div > a')))
-    browser.find_element_by_css_selector('#content > div > div:nth-child(1) > div > a')
-
-    WebDriverWait(browser, 3).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#input-email')))
-    browser.find_element_by_css_selector('#input-email')
-
-    WebDriverWait(browser, 3).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#input-password')))
-    browser.find_element_by_css_selector('#input-password')
-
-    WebDriverWait(browser, 3).until(
-        EC.element_to_be_clickable((By.CSS_SELECTOR, '#content > div > div:nth-child(2) > div > form > input')))
-    browser.find_element_by_css_selector('#content > div > div:nth-child(2) > div > form > input')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#column-right > div')))
-    browser.find_element_by_css_selector('#column-right > div')
+    login_page = LoginPage(browser)
+    login_page.open_page(url + login_page.URL)
+    login_page.wait_visibility_find(3, LoginPageLocators.CONTINUE_BTN)
+    login_page.wait_clickable_find(3, LoginPageLocators.EMAIL_FIELD)
+    login_page.wait_clickable_find(3, LoginPageLocators.PASSWORD_FIELD)
+    login_page.wait_clickable_find(3, LoginPageLocators.LOGIN_BTN)
+    login_page.wait_visibility_find(3, LoginPageLocators.RIGHT_COLUMN)
