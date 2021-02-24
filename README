@@ -1,0 +1,17 @@
+#Opencart Autotesting Homework
+PageObject Pattern was implemented:
+Pages directory now has 8 Pages described
+_____________________________________
+Conftest.py is parametrized with 3 params:
+--headless - for headless use
+--browser (ie,firefox,chrome)
+--maximized - for maximized window
+_____________________________________
+admin_test - finds 5 elements at the admin page
+login_test - finds 5 elements at the login page
+main_test - finds 5 elements at the main page
+product_test - finds 5 elements at the product page
+desktops_test - finds 5 elements at the desktops page
+admin_page_test - has two test scenarios:
+1.Login scenario
+2.Login and product page open scenario

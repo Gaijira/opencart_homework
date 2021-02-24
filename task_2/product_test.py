@@ -1,26 +1,11 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+from pages.ProductPage import *
 
 
 def test_product(browser, url):
-    browser.get(url + '?route=product/product&path=57&product_id=49')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located(
-        (By.CSS_SELECTOR, '#content > div > div.col-sm-8 > ul.thumbnails > li:nth-child(1) > a')))
-    browser.find_element_by_css_selector('#content > div > div.col-sm-8 > ul.thumbnails > li:nth-child(1) > a')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#button-cart')))
-    browser.find_element_by_css_selector('#button-cart')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located(
-        (By.CSS_SELECTOR, '#content > div > div.col-sm-8 > ul.thumbnails > li:nth-child(2) > a')))
-    browser.find_element_by_css_selector('#content > div > div.col-sm-8 > ul.thumbnails > li:nth-child(2) > a')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located(
-        (By.CSS_SELECTOR, '#content > div > div.col-sm-8 > ul.nav.nav-tabs > li:nth-child(2)')))
-    browser.find_element_by_css_selector('#content > div > div.col-sm-8 > ul.nav.nav-tabs > li:nth-child(2)')
-
-    WebDriverWait(browser, 3).until(EC.visibility_of_element_located(
-        (By.CSS_SELECTOR, '#content > div > div.col-sm-4 > div.btn-group > button:nth-child(2)')))
-    browser.find_element_by_css_selector('#content > div > div.col-sm-4 > div.btn-group > button:nth-child(2)')
+    product_page = ProductPage(browser)
+    product_page.open_page(url + ProductPage.URL)
+    product_page.wait_visibility_find(3, ProductPageLocators.MAIN_IMG)
+    product_page.wait_visibility_find(3, ProductPageLocators.IMG_1)
+    product_page.wait_visibility_find(3, ProductPageLocators.COMPARE_BTN)
+    product_page.wait_visibility_find(3, ProductPageLocators.CART_ADD_BTN)
+    product_page.wait_visibility_find(3, ProductPageLocators.REVIEWS_BTN)
