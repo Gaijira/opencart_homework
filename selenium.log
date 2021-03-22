@@ -1,0 +1,36 @@
+INFO:[2021-03-22 21:44:31,206]:BrowserLogger:Test test_title started
+INFO:[2021-03-22 21:44:33,968]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:33,969]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:33,969]:BrowserLogger:Test test_title finished
+INFO:[2021-03-22 21:44:42,688]:BrowserLogger:Test test_index started
+INFO:[2021-03-22 21:44:42,688]:BrowserLogger:Test test_admin_page started
+INFO:[2021-03-22 21:44:42,688]:BrowserLogger:Test test_title started
+INFO:[2021-03-22 21:44:42,688]:BrowserLogger:Test test_login started
+INFO:[2021-03-22 21:44:42,688]:BrowserLogger:Test test_desktop started
+INFO:[2021-03-22 21:44:46,572]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:46,573]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:46,573]:BrowserLogger:Test test_desktop finished
+INFO:[2021-03-22 21:44:46,884]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:46,884]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:46,884]:BrowserLogger:Test test_title finished
+INFO:[2021-03-22 21:44:47,621]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:47,621]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:47,622]:BrowserLogger:Test test_login finished
+INFO:[2021-03-22 21:44:48,107]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:48,107]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:48,107]:BrowserLogger:Test test_admin_page finished
+INFO:[2021-03-22 21:44:48,194]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:48,194]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:48,194]:BrowserLogger:Test test_index finished
+INFO:[2021-03-22 21:44:52,206]:BrowserLogger:Test test_product started
+INFO:[2021-03-22 21:44:54,686]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:54,687]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:54,687]:BrowserLogger:Test test_product finished
+INFO:[2021-03-22 21:44:55,071]:BrowserLogger:Test test_admin_login started
+INFO:[2021-03-22 21:44:56,020]:BrowserLogger:Test test_products started
+INFO:[2021-03-22 21:44:58,554]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:58,554]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:58,554]:BrowserLogger:Test test_admin_login finished
+INFO:[2021-03-22 21:44:59,457]:BrowserLogger:Browser chrome started with browser version:88.0.4324.96
+INFO:[2021-03-22 21:44:59,458]:BrowserLogger:Browser chrome closed
+INFO:[2021-03-22 21:44:59,459]:BrowserLogger:Test test_products finished
