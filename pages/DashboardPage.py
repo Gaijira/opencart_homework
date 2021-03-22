@@ -3,7 +3,7 @@ from pages.BasePage import *
 
 
 class DashboardPageLocators:
-    LOGOUT_BTN = (By.LINK_TEXT, 'Logout')
+    LOGOUT_BTN = (By.XPATH, '//*[@id="header"]/div/ul/li[2]/a')
     CATALOG_BTN = (By.LINK_TEXT, 'Catalog')
     PRODUCTS_BTN = (By.LINK_TEXT, 'Products')
     PRODUCT_TABLE = (By.CLASS_NAME, 'panel-body')

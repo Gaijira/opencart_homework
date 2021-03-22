@@ -1,11 +1,17 @@
 #Opencart Autotesting Homework
 PageObject Pattern was implemented:
 Pages directory now has 8 Pages described
+Added Allure results and allure steps
 _____________________________________
 Conftest.py is parametrized with 3 params:
---headless - for headless use
 --browser (ie,firefox,chrome)
 --maximized - for maximized window
+--vnc - for using vnc
+--executor - remote ip
+--url - url for testing
+--logs - logging enable or not
+--bversion - browser version
+--vnc - enable vnc
 _____________________________________
 admin_test - finds 5 elements at the admin page
 login_test - finds 5 elements at the login page
